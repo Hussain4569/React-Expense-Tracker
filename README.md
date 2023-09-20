@@ -1,7 +1,8 @@
 # React Expense Tracker
 
-This is a simple expense tracker app built with React. It uses functional components with hooks and the context API. The app utilizes the Material UI library for pre-built components, customizing the theme, and styling.
-For storage, the app uses the browser's local storage to persist data.
+This is a simple expense tracker app built with React. It uses functional components with hooks and the context API. The app utilizes the Material UI library for pre-built components, customizing the theme, and styling. For storage, the app uses the browser's local storage to persist data.
+
+You can visit the app by clicking on the following link: [React Expense Tracker](https://jsm-expense-tracker.netlify.app/)
 
 ## Usage
 
