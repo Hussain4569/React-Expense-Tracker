@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# React Expense Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple expense tracker app built with React. It uses functional components with hooks and the context API. The app utilizes the Material UI library for pre-built components, customizing the theme, and styling.
+For storage, the app uses the browser's local storage to persist data.
 
-## Available Scripts
+## Usage
 
-In the project directory, you can run:
+### Adding Income or Expenses
+You can add income and expenses to the app very intuitively. Simply select the type of transaction you want to add, select a relevant category, add the amount, select the date, and click on the *Create* button. The app will automatically update the total balance and the income or expense total. The donut charts will also update to reflect the new data.
 
-### `npm start`
+**Example for adding income:**
+![adding income](./img/adding-income.gif)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Example for adding expense:**
+![adding expense](./img/adding-expense.gif)
 
-### `npm test`
+### Deleting Income or Expenses
+To delete an entry from the app, simply click on the *Delete* button next to the entry you want to delete. The app will automatically update the total balance and the income or expense total. The donut charts will also update to reflect the new data.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Using Speechly Voice Commands
+This app is using the Speechly API to allow for voice commands. To use this feature, click on the microphone icon below the adding entry form. You can then add income or expenses by saying something like "Add income of 100 dollars in category Salary on Monday". The app will automatically update the total balance and the income or expense total. The donut charts will also update to reflect the new data.
 
-### `npm run build`
+Note:  The Speechly API has changed since the creation of this app. The app is using the old version of the API. The new version of the API is not backwards compatible with the old version. Therefore, the voice command functionality is not working.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This app was made with the help of the following tutorial: [Build and Deploy a Voice Powered React App - Budget Tracker | Context API, Local Storage, Speechly](https://www.youtube.com/watch?v=NnUFOWR_V4Y&list=PL6QREj8te1P6wX9m5KnicnDVEucbOPsqR)
